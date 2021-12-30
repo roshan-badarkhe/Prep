@@ -1,0 +1,87 @@
+body{
+    border-style: solid;
+    border-color: green lightgreen;
+    border-width: 5px
+    
+}
+section{
+    border-style: solid;
+    border-color: lightgreen green;
+    border-width: 5px;
+    background-image : url("https://previews.123rf.com/images/apostrophe/apostrophe1907/apostrophe190700016/127123968-texture-de-fond-beige-et-blanc-avec-un-design-de-texture-de-pierre-marbr%C3%A9e-abstraite-l%C3%A9g%C3%A8re.jpg?fj=1")
+}
+.div2{
+    font-style: italic;
+    text-align: center;
+    height: 50px;
+    width: 425px;;
+    padding-left: 30px;
+    display: inline-block;
+    background-color: black;
+    border: red 5px solid;
+    border-radius: 20px;
+    color: white;
+    position: relative;
+    bottom: 30px;
+    right: 200px;
+}
+.div1{
+    font-style: italic;
+    font-size: x-large;
+    height: 100px;
+    width:30%;
+    padding-left: 20px;
+    display: inline-block;
+    margin:10px;
+    background-color: black;
+    border: red 5px solid;
+    border-radius: 20px;
+    color: white;
+}
+.circle{
+    position: relative;
+    top: 250px;
+    text-decoration: underline;
+    font-size: 27px;
+    display: inline-block;
+    text-align: center;
+    font-style: oblique;
+    border-radius:50%;
+    border: 10px grey solid; 
+    background-color:rgb(18, 158, 158);
+    height: 400px; 
+    width: 400px;
+}
+label,h2{
+    color: rgb(240, 25, 10);
+}
+form{ 
+    display: inline-block;
+    background-color: white;
+    position: relative;
+    text-align: center;
+    width: 25%;
+    border: red dashed 5px;
+    bottom:350px;
+    left: 800px;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 250px; 
+    flex-wrap: wrap;
+}
+.flex-item{
+    flex :25%;
+    margin: 40px;
+    font-weight: bold;
+    color: rgb(12, 68, 105);
+    height: auto;
+    width: auto;
+    border-radius: 40px;
+    text-align: center;
+    background-color: aqua;
+    border-color: green;
+    border-style: solid;
+}
