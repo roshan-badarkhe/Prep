@@ -1,0 +1,110 @@
+.wrapper {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(50px, auto);
+  }
+  .one {
+    background-color: red;
+    grid-column: 1 / 5;
+    grid-row: 1;
+  }
+  .two {
+    background-color: lightgreen;
+    grid-column: 1 / 2;
+    grid-row: 2 ;
+  }
+  .three {
+    background-color: blue;
+    grid-column: 2;
+    grid-row: 2 ;
+  }
+  .four {
+    background-color: purple;
+    grid-column: 3;
+    grid-row: 2;
+  }
+  .five {
+    background-color: black;
+    grid-column: 4;
+    grid-row: 2 / 5;
+  }
+  .six {
+    background-color: orange;
+    grid-column:1 / 4;
+    grid-row: 3 / 5;
+  }
+  .seven{
+    color: black;
+    background-color: blueviolet;
+    grid-column: 1 / 5 ;
+    grid-row: 5;
+  }
+  .lg1{
+    text-decoration:underline;
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+    height:auto;
+    width:auto;
+    background:linear-gradient(to right,red,green,yellow);
+  }
+  .lg2{
+    text-decoration:underline;
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+    height:auto;
+    width:auto;
+    background:linear-gradient(to right,red,yellow,red);
+  }
+  .rg{
+    border: green solid;
+    height: 150px;
+    width: auto;
+    background: radial-gradient(blue,green);
+  }
+  .flex-container{
+    height:100%;
+    width:100%;
+    display: flex;
+  }
+  .flex-item{
+    text-align: center;
+    width: 200px;
+    height:70px;
+    background-color: yellow;
+    text-decoration: underline;
+    font: bold ;
+    color: brown;
+    margin: auto;
+    border: brown solid;
+    border-radius: 15px;
+    padding-top: 5px;
+  }
+  .flex-container2{
+    background-color: cyan;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .flex-item2{
+    flex: 30% 0 0;
+    margin: 5px;
+    border: rgb(9, 146, 146) solid;
+    border-radius: 10px;
+  }
+  .md{
+    background-color: lightblue;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    border: red solid 3px;
+    border-radius: 10px;
+  }
